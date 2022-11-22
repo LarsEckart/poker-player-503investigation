@@ -9,10 +9,10 @@ public class Player {
 
     private static final Logger log = getLogger(Player.class);
 
-    static final String VERSION = "Default Java folding player";
+    static final String VERSION = "bet 15";
 
     public static int betRequest(JsonNode request) {
-        int bet = 10;
+        int bet = 15;
         log.info("betting " + bet);
         return bet;
     }
